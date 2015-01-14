@@ -70,7 +70,6 @@ var igatajs = function (templateID, dataSet, opening, closing) {
     // return the clone
     return clone;
   } catch (err) {
-    console.log(err);
     return err;
   }
 }

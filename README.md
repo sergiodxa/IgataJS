@@ -38,6 +38,10 @@ Now compile your JS using Browserify to create a browser compatible JS file.
 
 Enjoy!
 
+## Demo
+To see a live demo go to this CodePen:
+
+
 ## License
 The MIT License (MIT)
 
