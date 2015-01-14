@@ -1,5 +1,5 @@
 {
-  "name": "IgataJS",
+  "name": "igatajs",
   "version": "1.0.0",
   "description": "Template engine who work with the HTML5 template tag.",
   "main": "index.js",
@@ -19,5 +19,5 @@
   "bugs": {
     "url": "https://github.com/sergiodxa/IgataJS/issues"
   },
-  "homepage": "https://github.com/sergiodxa/IgataJS"
+  "homepage": "http://sergiodxa.github.io/IgataJS/"
 }
