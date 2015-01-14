@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>IgataJS by sergiodxa</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">IgataJS</h1>
+        <p class="header">Template engine who work with the HTML5 template tag</p>
+
+        <ul>
+          <li class="download"><a class="buttons" href="https://github.com/sergiodxa/IgataJS/zipball/master">Download ZIP</a></li>
+          <li class="download"><a class="buttons" href="https://github.com/sergiodxa/IgataJS/tarball/master">Download TAR</a></li>
+          <li><a class="buttons github" href="https://github.com/sergiodxa/IgataJS">View On GitHub</a></li>
+        </ul>
+
+        <p class="header">This project is maintained by <a class="header name" href="https://github.com/sergiodxa">sergiodxa</a></p>
+
+
+      </header>
+      <section>
+        <h1>
+<a id="igatajs" class="anchor" href="#igatajs" aria-hidden="true"><span class="octicon octicon-link"></span></a>IgataJS</h1>
+
+<p>Template engine who work with the HTML5 template tag.</p>
+
+<p>Test coming soon!</p>
+
+<h2>
+<a id="install" class="anchor" href="#install" aria-hidden="true"><span class="octicon octicon-link"></span></a>Install</h2>
+
+<p>Use NPM to install with the command:</p>
+
+<pre><code>npm i -S igatajs
+</code></pre>
+
+<h2>
+<a id="how-to-use" class="anchor" href="#how-to-use" aria-hidden="true"><span class="octicon octicon-link"></span></a>How to use</h2>
+
+<p>Import IgataJS inside your JS file using:</p>
+
+<div class="highlight highlight-javascript"><pre><span class="pl-s">var</span> igatajs <span class="pl-k">=</span> <span class="pl-s3">require</span>(<span class="pl-s1"><span class="pl-pds">'</span>igatajs<span class="pl-pds">'</span></span>);</pre></div>
+
+<p>In your HTML files create your templates:</p>
+
+<div class="highlight highlight-html"><pre>&lt;<span class="pl-ent">template</span> <span class="pl-e">id</span>=<span class="pl-s1"><span class="pl-pds">"</span>myTemplate<span class="pl-pds">"</span></span>&gt;
+  &lt;<span class="pl-ent">h1</span>&gt;{{title}}&lt;/<span class="pl-ent">h1</span>&gt;
+&lt;/<span class="pl-ent">template</span>&gt;</pre></div>
+
+<p>In your JS file now use IgataJS with these lines:</p>
+
+<pre><code>var template = igatajs('#myTemplate', {
+  title: 'Hello world'
+});
+document.body.appendChild(template);
+</code></pre>
+
+<p>Now compile your JS using Browserify to create a browser compatible JS file.</p>
+
+<p>Enjoy!</p>
+
+<h2>
+<a id="demo" class="anchor" href="#demo" aria-hidden="true"><span class="octicon octicon-link"></span></a>Demo</h2>
+
+<p>To see a live demo go to this CodePen:
+<a href="http://codepen.io/sergiodxa/full/yyMaJO/">http://codepen.io/sergiodxa/full/yyMaJO/</a></p>
+
+<h2>
+<a id="license" class="anchor" href="#license" aria-hidden="true"><span class="octicon octicon-link"></span></a>License</h2>
+
+<p>The MIT License (MIT)</p>
+
+<p>Copyright (c) 2015 Sergio Daniel Xalambrí</p>
+
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:</p>
+
+<p>The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.</p>
+
+<p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.</p>
+      </section>
+      <footer>
+        <p><small>Hosted on <a href="http://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+		          <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-48432002-5");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>
