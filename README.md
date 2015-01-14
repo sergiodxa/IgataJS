@@ -40,7 +40,7 @@ Enjoy!
 
 ## Demo
 To see a live demo go to this CodePen:
-
+[http://codepen.io/sergiodxa/full/yyMaJO/](http://codepen.io/sergiodxa/full/yyMaJO/)
 
 ## License
 The MIT License (MIT)
